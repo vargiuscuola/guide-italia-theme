@@ -14230,9 +14230,6 @@ body.show-menu:before {
     display: inline-block;
     font-weight: 700;
 }
-code {
-    border-radius: 3px;
-}
 .highlight {
     padding: 1rem;
     margin-bottom: 1em;

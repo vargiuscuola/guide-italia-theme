@@ -2,6 +2,28 @@
 
 Il presente è un fork del repository [GitHub - italia/docs-italia-theme: Tema per i documenti pubblicati su Docs Italia](https://github.com/italia/docs-italia-theme).
 
+Oltre alle modifiche allo stile e contenuti del tema, è stata aggiunta la versione unminified del file `docs_italia_theme/static/css/theme.css` con nome `theme.unmin.css` per consentirmi di apportare più agevolmente alcune modifiche.  
+Dopo ciascuna modificha al file `theme.unmin.css` si può rigenerare il file minified tramite il comando (supponendo che il repository risieda nella directory `/opt/git/vargiuscuola/docs-italia-theme`):
+```console
+$ yui-compressor /opt/git/vargiuscuola/docs-italia-theme/docs_italia_theme/static/css/theme.unmin.css >/opt/git/vargiuscuola/docs-italia-theme/docs_italia_theme/static/css/theme.css
+```
+
+Il file `theme.css` in realtà è stato generato originariamente tramite compilazione del file `sass/theme.scss` con comandi tipo i seguenti:
+```console
+$ gem install sass
+$ sass sass/theme.scss >docs_italia_theme/static/css/theme.css
+```
+Il file `sass` contiene però un riferimento a quelli del tema presente nel repository `italia/bootstrap-italia` (precisamente viene inclusa la directory `bootstrap-italia/src/scss/bootstrap-italia`): per semplicità, vista l'esiguità delle modifiche, ho proceduto con la modifica diretta del file `css`.
+
+---
+**IMPORTANTE**
+
+Dopo l'aggiornamento di questo repository, eseguire il seguente comando per aggiornare il relativo pacchetto `pip`:
+```
+$ pip install --upgrade "git+ssh://git@github.com/vargiuscuola/docs-theme@bootstrap-italia"
+```
+---
+
 Di seguito la documentazione in lingua inglese del repository originario.
 
 [![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7658JRJR)

@@ -14233,6 +14233,9 @@ body.show-menu:before {
 div[class^="highlight-"] {
     border-radius: 3px;
 }
+.highlight-default {
+    border-radius: 3px;
+}
 .highlight {
     padding: 1rem;
     margin-bottom: 1em;

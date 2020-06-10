@@ -20,7 +20,7 @@ Il file `sass` contiene però un riferimento a quelli del tema presente nel repo
 
 Dopo l'aggiornamento di questo repository, eseguire il seguente comando per aggiornare il relativo pacchetto `pip`:
 ```
-$ pip install --upgrade "git+ssh://git@github.com/vargiuscuola/docs-theme@bootstrap-italia"
+$ pip install --upgrade "git+ssh://git@github.com/vargiuscuola/docs-italia-theme@bootstrap-italia"
 ```
 ---
 

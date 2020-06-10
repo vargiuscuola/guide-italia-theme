@@ -14230,10 +14230,7 @@ body.show-menu:before {
     display: inline-block;
     font-weight: 700;
 }
-div[class^="highlight-"] {
-    border-radius: 3px;
-}
-.highlight-default {
+code {
     border-radius: 3px;
 }
 .highlight {

@@ -14230,6 +14230,10 @@ body.show-menu:before {
     display: inline-block;
     font-weight: 700;
 }
+.highlight-
+div[class^="highlight-"] {
+    border-radius: 3px;
+}
 .highlight {
     padding: 1rem;
     margin-bottom: 1em;

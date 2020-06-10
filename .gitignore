@@ -18,3 +18,5 @@ bower_components/
 node_modules/
 npm-debug.log
 .venv
+*.swp
+*.swo

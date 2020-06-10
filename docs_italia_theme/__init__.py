@@ -98,7 +98,7 @@ def add_context_data(app, pagename, templatename, context, doctree):
         context['LOCAL'] = True
         context['PRODUCTION_DOMAIN'] = 'localhost'
         context['slug'] = 'docs'
-        context['current_version'] = 'stabile'
+        context['current_version'] = 'stabilex'
         context['rtd_language'] = 'it'
         context['publisher_project'] = u'Docs Vargiu Scuola'
         context['publisher_project_url'] = 'https://github.com/vargiuscuola/docs-private'

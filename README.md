@@ -13,7 +13,7 @@ Il file `theme.css` in realtà è stato generato originariamente tramite compila
 $ gem install sass
 $ sass sass/theme.scss >docs_italia_theme/static/css/theme.css
 ```
-Il file `sass` contiene però un riferimento a quelli del tema presente nel repository `italia/bootstrap-italia` (precisamente viene inclusa la directory `bootstrap-italia/src/scss/bootstrap-italia`): per semplicità, vista l'esiguità delle modifiche, ho proceduto con la modifica diretta del file `css`.
+Il file `sass` contiene però un riferimento a quelli del tema presente nel repository `italia/bootstrap-italia` (precisamente viene inclusa la directory `bootstrap-italia/src/scss/bootstrap-italia`): vista l'esiguità delle modifiche ho preferito procedere con la modifica diretta del file `css`.
 
 ---
 **IMPORTANTE**

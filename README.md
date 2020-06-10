@@ -1,3 +1,9 @@
+# Tema della documentazione interna di Vargiu Scuola
+
+Il presente è un fork del repository [GitHub - italia/docs-italia-theme: Tema per i documenti pubblicati su Docs Italia](https://github.com/italia/docs-italia-theme).
+
+Di seguito la documentazione in inglese del repository originario.
+
 [![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7658JRJR)
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
 

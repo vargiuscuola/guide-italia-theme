@@ -1,7 +1,7 @@
 # This file is here for compatibility because the
 # theme changed his name to docs_italia_theme
 
-"""Docs Italia theme"""
+"""Docs Italia theme for Vargiu Scuola Srl"""
 
 import os
 

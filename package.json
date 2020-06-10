@@ -1,13 +1,13 @@
 {
   "name": "docs-italia-theme",
-  "description": "Docs Italia theme è il tema Sphinx di riferimento per Docs Italia",
-  "repository": "https://github.com/italia/docs-italia-theme",
+  "description": "Tema Sphinx per i documenti pubblicati su https://docs.vargiuscuola.it",
+  "repository": "ssh://git@github.com/vargiuscuola/docs-italia-theme.git",
   "version": "1.2.0-beta",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
-  "author": "Presidenza del Consiglio dei Ministri",
+  "author": "Vargiu Scuola Srl",
   "scripts": {
     "start": "grunt",
     "build": "grunt build",

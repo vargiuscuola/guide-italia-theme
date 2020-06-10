@@ -15,7 +15,7 @@ setup(
     name = 'docs_italia_theme',
     version = package_data['version'],
     license = package_data['license'],
-    author = 'Team per la Trasformazione Digitale - AgID',
+    author = 'Vargiu Scuola Srl',
     description = __doc__,
     long_description = codecs.open('README.md', 'r', 'utf-8').read(),
     zip_safe = False,

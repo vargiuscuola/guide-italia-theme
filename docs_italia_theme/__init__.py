@@ -97,16 +97,17 @@ def add_context_data(app, pagename, templatename, context, doctree):
     if os.environ.get('READTHEDOCS', None) != 'True':
         context['LOCAL'] = True
         context['PRODUCTION_DOMAIN'] = 'localhost'
-        context['slug'] = 'demo-document'
-        context['current_version'] = 'bozza'
+        context['slug'] = 'docs'
+        context['current_version'] = 'stabile'
         context['rtd_language'] = 'it'
-        context['publisher_project'] = u'Progetto demo'
-        context['publisher_project_slug'] = 'progetto-demo'
-        context['publisher'] = u'Organizzazione demo'
-        context['publisher_slug'] = 'organizzazione-demo'
+        context['publisher_project'] = u'Docs Vargiu Scuola'
+        context['publisher_project_url'] = 'https://github.com/vargiuscuola/docs-private'
+        context['publisher_project_slug'] = 'docs-vargiuscuola'
+        context['publisher'] = u'Vargiu Scuola'
+        context['publisher_url'] = 'https://vargiuscuola.it'
+        context['publisher_slug'] = 'vargiuscuola'
         context['tags'] = [
-            ('demo', '#'),
-            ('docs italia', '#')
+            ('docs vargiuscuola', '#')
         ]
 
     if 'docsitalia_data' in context:

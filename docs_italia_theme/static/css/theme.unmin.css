@@ -14231,8 +14231,10 @@ body.show-menu:before {
     font-weight: 700;
 }
 .highlight {
-    padding: 1rem;
+    padding: 16px;
     margin-bottom: 1em;
+    background: #f6f8fa;
+    border-radius: 3px;
 }
 .highlight pre {
     margin: 0;
@@ -14245,8 +14247,9 @@ body.show-menu:before {
     background: none;
 }
 code:not(.download) .pre {
-    background-color: #efc;
-    padding: .2rem;
+    background-color: rgba(27,31,35,.05);
+    padding: .2em .4em;
+    border-radius: 3px;
 }
 code.download {
     font-family: Titillium Web, Helvetica Neue, Helvetica, Arial, sans-serif;

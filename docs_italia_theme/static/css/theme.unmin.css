@@ -5,6 +5,9 @@
     .primary-bg {
     background-color: #06c;
 }
+.strike {
+  text-decoration: line-through;
+}
 .primary-color {
     color: #06c;
 }

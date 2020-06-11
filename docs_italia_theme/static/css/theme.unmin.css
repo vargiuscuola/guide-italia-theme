@@ -14233,6 +14233,8 @@ body.show-menu:before {
 .highlight {
     padding: 16px;
     margin-bottom: 1em;
+}
+div.highlight {
     background: #f6f8fa;
     border-radius: 3px;
 }

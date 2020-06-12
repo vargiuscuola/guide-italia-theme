@@ -14472,8 +14472,11 @@ code.download {
 #doc-content .admonition.important .admonition-title {
     color: #008255;
 }
+#doc-content .admonition.danger {
+    border-color: #cc2233;
+}
 #doc-content .admonition.danger .admonition-title {
-    color: #820055;
+    color: #cc2233;
 }
 #doc-content .admonition.important .last {
     font-weight: 700;

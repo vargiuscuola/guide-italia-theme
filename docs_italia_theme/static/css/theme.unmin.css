@@ -13327,7 +13327,8 @@ to {
 .img--header {
     width: 29px;
     height: 36px;
-    content:url("/_static/images/logo_vargiuscuola.png");
+    background-image: url("/_static/images/logo_vargiuscuola.png");
+    background-size: cover;
 }
 @media (min-width:576px) {
     .svg--header {

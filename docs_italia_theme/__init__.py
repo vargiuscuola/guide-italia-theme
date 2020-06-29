@@ -100,14 +100,14 @@ def add_context_data(app, pagename, templatename, context, doctree):
         context['slug'] = 'docs'
         context['current_version'] = 'stabile'
         context['rtd_language'] = 'it'
-        context['publisher_project'] = u'Docs Vargiu Scuola'
-        context['publisher_project_url'] = 'https://github.com/vargiuscuola/docs-private'
-        context['publisher_project_slug'] = 'docs-vargiuscuola'
+        context['publisher_project'] = u'Guide Vargiu Scuola'
+        context['publisher_project_url'] = 'https://github.com/vargiuscuola/docs-public'
+        context['publisher_project_slug'] = 'guide-vargiuscuola'
         context['publisher'] = u'Vargiu Scuola'
         context['publisher_url'] = 'https://vargiuscuola.it'
         context['publisher_slug'] = 'vargiuscuola'
         context['tags'] = [
-            ('docs vargiuscuola', '#')
+            ('guide', '#')
         ]
 
     if 'docsitalia_data' in context:

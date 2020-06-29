@@ -1,4 +1,4 @@
-# Tema della documentazione interna di Vargiu Scuola
+# Tema delle guide per i clienti di Vargiu Scuola
 
 Il presente è un fork del repository [GitHub - italia/docs-italia-theme: Tema per i documenti pubblicati su Docs Italia](https://github.com/italia/docs-italia-theme).
 

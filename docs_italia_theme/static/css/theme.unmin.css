@@ -12871,8 +12871,8 @@ to {
     content: ""}
 .docs-icon-html:before {
     content: ""}
-#.docs-icon-project:before {
-#    content: ""}
+.docs-icon-project:before {
+    content: ""}
 .docs-icon-publisher:before {
     display: inline-block;
     content: "";
@@ -12880,8 +12880,8 @@ to {
     background-repeat: no-repeat;
     background-size: 1rem 1rem;
 }
-.docs-icon-publisher:before {
-    content: ""}
+//.docs-icon-publisher:before {
+//    content: ""}
 .docs-icon-docs:before {
     content: ""}
 .docs-icon-user:before {

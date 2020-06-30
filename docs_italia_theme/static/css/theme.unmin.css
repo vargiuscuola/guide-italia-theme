@@ -6,11 +6,13 @@
     background-color: #06c;
 }
 @font-face {
-    font-family: Audiowide;
-    src: url("_static/font/Audiowide-Regular.ttf") format('truetype');
+    font-family: audiowide;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/Audiowide-Regular.ttf) format("truetype");
 }
 .site-title {
-    font-family: Audiowide;
+    font-family: audiowide;
 }
 .strike {
   text-decoration: line-through;

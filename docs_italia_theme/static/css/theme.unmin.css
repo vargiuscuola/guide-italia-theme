@@ -5,6 +5,13 @@
     .primary-bg {
     background-color: #06c;
 }
+@font-face {
+    font-family: Audiowide;
+    src: url("_static/font/Audiowide-Regular.ttf") format('truetype');
+}
+.site-title {
+    font-family: Audiowide;
+}
 .strike {
   text-decoration: line-through;
 }

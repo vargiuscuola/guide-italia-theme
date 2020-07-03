@@ -13349,7 +13349,7 @@ a.img--header {
     height: 36px;
     background-image: url("/_static/images/logo_vargiuscuola.png");
     background-size: cover;
-    display: none !important;
+    //display: none !important;
 }
 @media (min-width:576px) {
     .svg--header {

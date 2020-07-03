@@ -11,6 +11,9 @@
     font-weight: 400;
     src: url(../font/Audiowide-Regular.ttf) format("truetype");
 }
+.logo--header {
+    color: #fff;
+}
 .site-title {
     font-family: audiowide;
 }

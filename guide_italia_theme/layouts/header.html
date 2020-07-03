@@ -43,7 +43,7 @@
       <div class="col pl-3 pl-sm-4">
         <h1 class="h1--header mb-1">
           <div class="text-white">Guide di </div>
-          <a href="/" class="site-title text-white">
+          <a href="https://vargiuscuola.it/" class="site-title text-white">
             {{ _(t.site_title | default(site.title) | escape) }}
             {% if site.pill %}
               <span class="badge badge-pill bg-primary--mid-dark align-middle">{{ _(site.pill) }}</span>
@@ -53,6 +53,7 @@
         <h2 class="text-white mb-0 h2--header">{{ _(t.site_subtitle | default(site.subtitle) | escape) }}</h2>
       </div>
     </div>
+    <!-- rimuove barra con informazioni progetto e link a Vargiu Scuola
     <div class="row mt-4 w-100 docs__document-info">
       <div class="col-md-6">
         <i class="docs-icon-document docs__document-info__icon"></i>
@@ -84,6 +85,7 @@
         {% endif %}
       </div>
     </div>
+    -->
   </div>
 </header>
 {% include 'layouts/doc_header.html' %}

@@ -1,16 +1,16 @@
 include *.txt
 include LICENSE
 include package.json
-recursive-include docs_italia_theme *.conf
-recursive-include docs_italia_theme *.css
-recursive-include docs_italia_theme *.eot
-recursive-include docs_italia_theme *.html
-recursive-include docs_italia_theme *.js
-recursive-include docs_italia_theme *.svg
-recursive-include docs_italia_theme *.png
-recursive-include docs_italia_theme *.ttf
-recursive-include docs_italia_theme *.woff
-recursive-include docs_italia_theme *.woff2
-recursive-include docs_italia_theme/data *.yaml
-recursive-include docs_italia_theme/data *.yml
-recursive-include docs_italia_theme/data *.json
+recursive-include guide_italia_theme *.conf
+recursive-include guide_italia_theme *.css
+recursive-include guide_italia_theme *.eot
+recursive-include guide_italia_theme *.html
+recursive-include guide_italia_theme *.js
+recursive-include guide_italia_theme *.svg
+recursive-include guide_italia_theme *.png
+recursive-include guide_italia_theme *.ttf
+recursive-include guide_italia_theme *.woff
+recursive-include guide_italia_theme *.woff2
+recursive-include guide_italia_theme/data *.yaml
+recursive-include guide_italia_theme/data *.yml
+recursive-include guide_italia_theme/data *.json

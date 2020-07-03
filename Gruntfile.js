@@ -33,13 +33,13 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'node_modules/bootstrap-italia/src/icons/font',
           src: ['**'],
-          dest: 'docs_italia_theme/static/font'
+          dest: 'guide_italia_theme/static/font'
         },
         {
           expand: true,
           cwd: 'node_modules/bootstrap-italia/src/icons/css',
           src: 'italia-icon-font.css',
-          dest: 'docs_italia_theme/static/css'
+          dest: 'guide_italia_theme/static/css'
         }],
       },
     },
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'sass',
           src: ['*.scss'],
-          dest: 'docs_italia_theme/static/css',
+          dest: 'guide_italia_theme/static/css',
           ext: '.css'
         }]
       }
@@ -62,8 +62,8 @@ module.exports = function(grunt) {
 
     concat: {
       all: {
-        src: ['docs_italia_theme/static/css/theme.css', 'docs_italia_theme/static/css/italia-icon-font.css'],
-        dest: 'docs_italia_theme/static/css/theme.css'
+        src: ['guide_italia_theme/static/css/theme.css', 'guide_italia_theme/static/css/italia-icon-font.css'],
+        dest: 'guide_italia_theme/static/css/theme.css'
       },
     },
 
@@ -72,7 +72,7 @@ module.exports = function(grunt) {
         options: {
           map: {
               inline: false,
-              annotation: 'docs_italia_theme/static/css'
+              annotation: 'guide_italia_theme/static/css'
           },
           processors: [
             require('pixrem')(),
@@ -80,8 +80,8 @@ module.exports = function(grunt) {
           ]
         },
         files: [{
-          src: 'docs_italia_theme/static/css/theme.css',
-          dest: 'docs_italia_theme/static/css/theme.css'
+          src: 'guide_italia_theme/static/css/theme.css',
+          dest: 'guide_italia_theme/static/css/theme.css'
         }]
       },
 
@@ -95,8 +95,8 @@ module.exports = function(grunt) {
           ]
         },
         files: [{
-          src: 'docs_italia_theme/static/css/theme.css',
-          dest: 'docs_italia_theme/static/css/theme.css'
+          src: 'guide_italia_theme/static/css/theme.css',
+          dest: 'guide_italia_theme/static/css/theme.css'
         }]
       }
     },
@@ -125,7 +125,7 @@ module.exports = function(grunt) {
           }
         },
         src: ['js/index.js'],
-        dest: 'docs_italia_theme/static/js/theme.js',
+        dest: 'guide_italia_theme/static/js/theme.js',
       },
 
       dev: {
@@ -139,7 +139,7 @@ module.exports = function(grunt) {
           }
         },
         src: ['js/index.js'],
-        dest: 'docs_italia_theme/static/js/theme.js',
+        dest: 'guide_italia_theme/static/js/theme.js',
       }
     },
 
@@ -149,7 +149,7 @@ module.exports = function(grunt) {
       },
       all: {
         files: {
-          'docs_italia_theme/static/js/theme.js': ['docs_italia_theme/static/js/theme.js']
+          'guide_italia_theme/static/js/theme.js': ['guide_italia_theme/static/js/theme.js']
         }
       }
     },
@@ -157,7 +157,7 @@ module.exports = function(grunt) {
     cacheBust: {
       all: {
         options: {
-          baseDir: 'docs_italia_theme/',
+          baseDir: 'guide_italia_theme/',
           assets: [
             'static/css/*.css',
             'static/js/*.js'
@@ -166,7 +166,7 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'docs_italia_theme/layouts/',
+          cwd: 'guide_italia_theme/layouts/',
           src: ['head.html', 'scripts.html']
         }]
       }
@@ -180,7 +180,7 @@ module.exports = function(grunt) {
 
     clean: {
       build: ['demo_docs/build'],
-      css: ['docs_italia_theme/static/css/italia-icon-font.css', 'docs_italia_theme/static/css/*.map']
+      css: ['guide_italia_theme/static/css/italia-icon-font.css', 'guide_italia_theme/static/css/*.map']
     },
 
     watch: {
@@ -193,7 +193,7 @@ module.exports = function(grunt) {
       },
       /* Changes in theme dir rebuild sphinx */
       sphinx: {
-        files: ['docs_italia_theme/**/*', 'demo_docs/**/*.rst', 'demo_docs/**/*.py'],
+        files: ['guide_italia_theme/**/*', 'demo_docs/**/*.rst', 'demo_docs/**/*.py'],
         tasks: ['clean:build', 'exec:build_sphinx']
       },
       /* JavaScript */

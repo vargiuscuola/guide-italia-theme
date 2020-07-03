@@ -15,7 +15,7 @@ import sys, os
 from os.path import abspath, join, dirname
 
 sys.path.insert(0, os.path.abspath('../..'))
-sys.path.insert(0, os.path.abspath('../../docs_italia_theme'))
+sys.path.insert(0, os.path.abspath('../../guide_italia_theme'))
 
 # -- PROJECT Variables ------------------------------------------------
 settings_project_name = 'Docs Italia Demo'
@@ -24,7 +24,7 @@ settings_editor_name = "AgID - Agenzia per l'Italia Digitale"
 settings_doc_version = 'bozza'
 settings_doc_release = '1.0'
 settings_doc_language = 'it'
-settings_file_name = 'docs-italia-demo'
+settings_file_name = 'guide-italia-demo'
 
 # -- General configuration -----------------------------------------------------
 
@@ -37,7 +37,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.doctest',
-    'docs_italia_theme',
+    'guide_italia_theme',
 ]
 
 # Math
@@ -121,7 +121,7 @@ if on_rtd:
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'docs_italia_theme'
+html_theme = 'guide_italia_theme'
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ["../.."]

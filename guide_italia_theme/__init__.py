@@ -285,7 +285,7 @@ def glossary_page_id(app, doctree, docname):
 
 def setup(app):
     app.site_data = load_theme_data()
-    app.add_html_theme('docs_italia_theme', os.path.abspath(os.path.dirname(__file__)))
+    app.add_html_theme('guide_italia_theme', os.path.abspath(os.path.dirname(__file__)))
     app.connect('html-page-context', add_context_data)
     app.connect('html-page-context', generate_additonal_tocs)
     app.connect('doctree-resolved', generate_glossary_json)

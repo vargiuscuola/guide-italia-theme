@@ -1,7 +1,7 @@
 {
-  "name": "docs-italia-theme",
+  "name": "guide-italia-theme",
   "description": "Tema Sphinx per i documenti pubblicati su https://docs.vargiuscuola.it",
-  "repository": "ssh://git@github.com/vargiuscuola/docs-italia-theme.git",
+  "repository": "ssh://git@github.com/vargiuscuola/guide-italia-theme.git",
   "version": "1.2.0-beta",
   "license": "MIT",
   "engines": {

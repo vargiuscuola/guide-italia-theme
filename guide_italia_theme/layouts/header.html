@@ -9,24 +9,21 @@
       aria-label="Toggle navigation">
     <span class="navbar__icon it-expand my-auto ml-1"></span></button>
 
-    <!-- @vs disabilita navbar
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
+    <!-- @vs disabilita il link forum
         <li class="nav-item px-lg-2 pl-3">
           <a class="nav-link" href="https://forum.vargiuscuola.it">{{ _(t.header_link_forum) }}</a>
         </li>
+    -->
         <li class="nav-item px-lg-2 pl-3 active">
-          <a class="nav-link" href="https://docs.vargiuscuola.it">{{ _(t.header_link_docs) }}</a>
+          <a class="nav-link" href="https://guide.vargiuscuola.it">{{ _(t.header_link_docs) }}</a>
         </li>
         <li class="nav-item px-lg-2 pl-3">
-          <a class="nav-link" href="https://protocolli.vargiuscuola.it">{{ _(t.header_link_protocolli) }}</a>
-        </li>
-        <li class="nav-item px-lg-2 pl-3">
-          <a class="nav-link" href="https://github.com/vargiuscuola">{{ _(t.header_link_github) }}</a>
+          <a class="nav-link" href="https://vargiuscuola.it">{{ _(t.header_link_home) }}</a>
         </li>
       </ul>
     </div>
-    -->
     
     <div class="ml-auto">
       {#{% include 'layouts/lang_switch.html' %}#}
